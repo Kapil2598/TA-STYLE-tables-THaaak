@@ -1,0 +1,383 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* General */
+.flex-30 {
+  flex: 0 1 40%;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 30px 300px;
+}
+.container-2 {
+  background-color: white;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+strong {
+  font-weight: bold;
+  color: orangered;
+}
+/* custom style */
+.part-1 {
+  background: linear-gradient(
+      to right,
+      rgba(45, 45, 45, 0.1),
+      rgba(45, 45, 45, 0.107)
+    );
+  background-size: cover;
+  height: 100vh;
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 90%;
+}
+
+
+header, main{ position: relative;
+  color: white;
+}
+.brand1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
+.link a {
+  margin-left: 50px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+}
+.sign {
+  background-color: orangered;
+  padding: 10px;
+}
+.main {
+  margin: 220px 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+}
+h3 {
+  font-weight: 600  ;
+}
+h1 {
+  font-size: 85px;
+  font-weight: bold;
+  word-spacing: 4px;
+}
+.member {
+  margin: 20px auto;
+  background-color: orangered;
+  width: 150px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.line {
+  margin: 20px 0;
+}
+.article-1 {
+  margin: 80px auto;
+  text-align: center;
+}
+.article-1-para {
+  margin: 0 auto;
+  font-size: 13px;
+  color: rgb(153, 153, 153);
+  width: 600px;
+}
+
+a {
+  text-decoration: none;
+}
+.article-2-para {
+  font-size: 13px;
+  color: rgb(153, 153, 153);
+  width: 480px;
+  margin: 7px 0;
+}
+.article-2{
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+h4 {
+  font-weight: 600;
+}
+.heading3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.cta {
+  padding: 100px;
+  background: url("assets/cta-bg.jpg");
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+.cta-para{
+  font-size: 15px;
+  width: 900px;
+  margin: 20px auto;
+}
+
+.discover {
+  font-size: 13px;
+  font-weight: 500;
+}
+.flex-para {
+  margin: -2px 0 0px 23px;
+}
+.btn{
+  border: 1px solid rgba(199, 196, 196, 0.637);
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px 2px; 
+  width: 280px;
+  margin: 30px;
+}
+.btn img{padding: 20px;}
+.first{
+  font-size: 20px;
+}
+.schedule{
+  font-size: 15px;
+  padding: 5px;
+  margin: 20px 0;
+}
+.trainer-1 img{
+  width: 600px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.class-2{
+  margin-left: 30px;
+}
+.all{
+  width: 270px;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 17px 6px;
+}
+.article-3-para{
+  font-size: 13px;
+  color: rgb(153, 153, 153);
+  width: 580px;
+  margin: 15px 0;
+}
+.bg{
+   background: linear-gradient(
+      to right,
+      rgba(45, 45, 45, 0.1),
+      rgba(45, 45, 45, 0.107)
+    ),
+    url("assets/schedule-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+table{
+  border: 1px solid;
+  font-size: 15px;
+  margin: 0 auto;
+}
+th, td{
+  border: 1px solid;
+  padding: 25px 33px;
+}
+.box-1{
+  width: 28%;  
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgb(207, 207, 207);
+}
+.inside-box{
+  padding: 30px;
+}
+h5 strong{
+  font-size: 12px;
+  font-weight: 500;
+  
+}
+h5{
+  padding: 10px 0 5px 0;
+}
+.article-4-para{
+  font-size: 13px;
+  color: rgb(153, 153, 153);
+padding: 10px 0;
+  margin: 7px 0;
+}
+.fb i{
+ margin-right: 9px;
+  color: rgb(69, 68, 68);
+  font-size: 14px;
+}
+.map{width: 50%;}
+.form{
+  background-color: rgb(59, 59, 59);
+  padding: 60px;
+  margin-left: 20px;
+}
+.boxstyle1{
+  width: 43%;
+  padding: 10px;
+  margin:0 20px 30px 0;
+  border:1px solid rgba(205, 205, 205, 0.799);
+}
+.boxstyle2{
+  width: 93%;
+  padding: 10px;
+  margin:0 20px 30px 0;
+  border:1px solid rgba(205, 205, 205, 0.799);
+}
+.style3{
+  height: 140px;
+}
+form{
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  
+}
+footer{ 
+  text-align: center;
+  font-size: 11px;
+}
